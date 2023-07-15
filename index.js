@@ -1,6 +1,5 @@
 import app from "./app/app.js";
 import "dotenv/config";
-//importar la conexion ala baase de datos
 import {connectDB} from "./app/databases/conect_db.js";
 
 async function main(){
